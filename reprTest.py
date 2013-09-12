@@ -1,4 +1,4 @@
-﻿#!/usr/local/bin/python
+﻿#测试__repr__方法
 class Study:
     def __init__(self,name=None):
         self.name =name

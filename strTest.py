@@ -1,4 +1,4 @@
-﻿#!/usr/local/bin/python
+﻿#测试__str__方法
 
 class PhoneNumber:
     def __init__(self,number):

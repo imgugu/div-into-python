@@ -1,3 +1,4 @@
+#测试__cmp__方法
 class Study:
      def __cmp__(self, other):
          if other > 0 :
