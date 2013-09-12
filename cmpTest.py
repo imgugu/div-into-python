@@ -1,3 +1,4 @@
+#coding=utf-8
 #测试__cmp__方法
 class Study:
      def __cmp__(self, other):

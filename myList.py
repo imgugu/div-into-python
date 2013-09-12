@@ -1,3 +1,4 @@
+#coding=utf-8
 #伪造一个列表类List：
 class MyList():
     def __init__(self,mlist=None):

@@ -1,4 +1,5 @@
-﻿#测试__del__方法
+﻿#coding=utf-8
+#测试__del__方法
 class Study:
     def __init__(self,name=None):
         self.name =name

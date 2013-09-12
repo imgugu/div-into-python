@@ -1,4 +1,5 @@
-﻿#测试__str__方法
+﻿#coding=utf-8
+#测试__str__方法
 
 class PhoneNumber:
     def __init__(self,number):
