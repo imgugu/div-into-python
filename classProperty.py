@@ -3,9 +3,16 @@
 class CP():
     dataMap = {"a":11, "b":22, "c":33}
     def x(self):
-        print self.dataMap
+        return self.dataMap
 
 print CP.dataMap
 ccp = CP()
 print ccp.dataMap
-ccp.x()
+print ccp.x()
+
+ccp.dataMap = None
+print ccp.dataMap
+print CP.dataMap
+
+CP.dataMap = None
+print CP.dataMap
